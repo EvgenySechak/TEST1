@@ -1,3 +1,7 @@
-print('hello github')
-a = 10
-ghdbh ntyh
+def g(n):
+    if n == 0:
+        return 1
+    else:
+        return n * g(n-1)
+
+print (g(100))
